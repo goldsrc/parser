@@ -1,7 +1,7 @@
 parser
 ============
 
-Simple web service, The methods are based on nltk. Models are passed as POST requests and must be in text format. and returns in text/json format
+Simple web service to parse and tag all the words in one sentence, The methods are based on nltk. Models are passed as POST requests and must be in text format. and returns in text/json format
 
 * Launching the service
 ```
