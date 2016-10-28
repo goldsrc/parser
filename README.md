@@ -5,6 +5,19 @@ Simple web service to parse and tag all the words in one sentence, The methods a
 Sentences are passed as POST requests and must be in text format.
 the service returns an JSON String that includes each word and it's tag.
 
+* Installing Requirments
+```
+pip install -r requirements.txt
+```
+
+* Installing NLTK data
+NLTK data is neccesery in order for this service to work.
+you can install them manually or from python shell
+
+```
+
+```
+
 * Launching the service
 ```
 python parser.py [--port 1234]
